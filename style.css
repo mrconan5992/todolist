@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+body {
+  font-family:arial;
+  font-size:120%;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+h2 {
+  text-align:center;
+}
+
+h2.list {
+  color:#00ffff;
+}
+
+h2.append {
+  color:#ff00ff;
+}
+
+h2.edit {
+  color:#00ff00;
+}
+
+h2.delete {
+  color:#0000ff;
+}
+
+.todoitem {
+  border:solid 1px #999;
+}
+
+.tododeleteitem {
+  cursor:pointer;
+}
+
+.todoedititem {
+  cursor:pointer;
+}
+
+
+p[id^="item"] {
+  width:90%;
+  background:#ffffff;
+  margin: 0 0 0 10px;
+  padding: 10px;
+}
+
+.menubutton {
+  width:22%;
+  height:40px;
+  margin: 0 0 0 10px;
+}
+
+table{
+  width:93%;
+  margin: 0 0 0 10px;
+}
+table th{
+  border:solid 1px #999;
+  text-align:left;
+  width:20%;
+  padding: 5px 10px 5px 10px;
+}
+
+table td{
+  border:solid 1px #999;
+  text-align:left;
+  width:73%;
+  padding: 5px 10px 5px 10px;
+}
+
+.tdsubmit{
+  border-style:none;
+}
+
+input[type="text"]{
+   border-style:none;
+   text-align:left;
+   width:100%;
+}
+
+textarea{
+   width:96%;
+   height:100%;
+   border-style:none;
+   text-align:left;
+}
+
+input[name="tablesubmit"] {
+   padding:20px 5px 20px 5px;
+}
+
